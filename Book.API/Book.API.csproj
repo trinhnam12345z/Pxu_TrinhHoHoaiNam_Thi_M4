@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Book.BAL.Interface\Book.BAL.Interface.csproj" />
+    <ProjectReference Include="..\Book.BAL\Book.BAL.csproj" />
+    <ProjectReference Include="..\Book.DAL\Book.DAL.csproj" />
+  </ItemGroup>
+
+
+</Project>
